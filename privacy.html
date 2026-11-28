@@ -10,7 +10,14 @@
   <div class="wrap">
     <header>
       <a class="brand" href="./index.html">
-        <span class="brand-mark">W</span>
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <rect x="4" y="2.5" width="16" height="3" rx="1.5" fill="currentColor"/>
+            <rect x="4" y="18.5" width="16" height="3" rx="1.5" fill="currentColor"/>
+            <path d="M6.5 5.5C6.5 9.2 10.6 10.8 10.6 12C10.6 13.2 6.5 14.8 6.5 18.5H17.5C17.5 14.8 13.4 13.2 13.4 12C13.4 10.8 17.5 9.2 17.5 5.5H6.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+            <path d="M9.6 8.2C9.6 7.3 10.4 6.8 11.1 7.2C11.6 7.4 12 7.9 12 7.9C12 7.9 12.4 7.4 12.9 7.2C13.6 6.8 14.4 7.3 14.4 8.2C14.4 9.2 12 10.7 12 10.7C12 10.7 9.6 9.2 9.6 8.2Z" fill="currentColor"/>
+          </svg>
+        </span>
         <span>Worthii · 值得么</span>
       </a>
       <nav class="lang-nav" aria-label="Language">
@@ -19,6 +26,7 @@
         <button class="lang-btn" data-set-lang="zh-Hant">繁體中文</button>
         <button class="lang-btn" data-set-lang="ja">日本語</button>
         <button class="lang-btn" data-set-lang="ko">한국어</button>
+        <button class="lang-btn" data-set-lang="es-MX">Español</button>
       </nav>
     </header>
 
@@ -26,7 +34,7 @@
       <section class="hero">
         <span class="pill">Privacy Policy</span>
         <h1>Worthii Privacy Policy</h1>
-        <p class="meta">Effective Date: November 24, 2026 · Applies to Worthii (com.moyu.worthit) and Worthii China Edition (com.moyu.worthit.cn)</p>
+        <p class="meta">Effective Date: November 28, 2026 · Applies to Worthii (com.moyu.worthit) and Worthii China Edition (com.moyu.worthit.cn)</p>
       </section>
 
       <article class="card">
@@ -37,33 +45,33 @@
       <article class="card">
         <h2>2. Data Stored Locally &amp; in Your Private iCloud</h2>
         <ul>
-          <li><strong>Spending &amp; Wish Records:</strong> Salary calibration, work hours, selected currency, expenses, income, cooldown wishes, and behavioral insight summaries are stored locally on your device and optionally backed up to your private Apple iCloud (CloudKit Private Database).</li>
-          <li><strong>Home Screen Widget Snapshot:</strong> Only a compact, non-sensitive summary (saved amount, saved workdays, active cooldown item name &amp; timer, active companion) is shared with the Worthii Home Screen Widget via the device-local App Group container.</li>
-          <li><strong>Local Behavioral Coach:</strong> Peak impulse time bands and resist rates are calculated strictly on-device and never transmitted to external analytics servers.</li>
+          <li><strong>Spending &amp; Wish Records:</strong> Salary calibration, work hours, selected currency, expenses, income, Cooling Pod wishes, and behavioral insight summaries are stored locally on your device and backed up to your private Apple iCloud (CloudKit Private Database) when signed in.</li>
+          <li><strong>On-Device Behavioral &amp; Emotion Almanac:</strong> Peak impulse time bands, resist rates, optional emotion trigger notes, and Chronicle progress are calculated strictly on-device and never transmitted to external analytics or AI servers.</li>
+          <li><strong>Widgets, Live Activities &amp; Siri Shortcuts:</strong> Where supported on your device, compact non-sensitive summaries (hourly wage rate, active Cooling Pod timer, and reclaimed workdays) stay strictly inside your local iOS device container / App Group to power Home &amp; Lock Screen Widgets, Dynamic Island Live Activities, and offline Siri App Intents, and never leave your iPhone for third-party servers.</li>
         </ul>
       </article>
 
       <article class="card">
         <h2>3. Edition Differences (Global vs. Mainland China)</h2>
         <ul>
-          <li><strong>Global Edition (com.moyu.worthit):</strong> Includes optional social features (Worthii Circle, Friends, 1-to-1 Chat, Friendship Promises). Only content you explicitly choose to share or send is stored in Apple CloudKit to deliver those features. Reporting a post or blocking a user hides content immediately and records a moderation report for review.</li>
-          <li><strong>Mainland China Edition (com.moyu.worthit.cn):</strong> Operates as a standalone personal cooldown journal (with personal iCloud backup) and does not upload posts to a public social feed.</li>
+          <li><strong>Global Edition (com.moyu.worthit):</strong> Includes optional social features (Worthii Circle, Friends, 1-to-1 Chat, Friendship Promises). Only content you explicitly choose to share or send is stored in Apple CloudKit to deliver those features. Reporting or blocking hides content immediately and records a moderation report for review.</li>
+          <li><strong>Mainland China Edition (com.moyu.worthit.cn):</strong> Operates as a standalone personal cooldown &amp; reflection journal (with personal iCloud sync) and does not upload posts to a public social feed.</li>
         </ul>
       </article>
 
       <article class="card">
         <h2>4. Photos &amp; Optional Media</h2>
-        <p>Photo Library access is requested only when you tap to attach a photo to a wish journal entry or optional payment instruction. Images remain on-device unless you explicitly publish a wish photo in the Global edition's optional Circle.</p>
+        <p>Photo Library access is requested only when you tap to attach a photo to a wish journal entry or optional payment QR code. Payment QR images and photos stay on-device unless you explicitly share them.</p>
       </article>
 
       <article class="card">
         <h2>5. In-App Purchases &amp; Subscriptions</h2>
-        <p>All payments (auto-renewing Pro subscriptions, one-time Lifetime Pro unlock, and optional Time Coin packs) are processed exclusively by Apple via StoreKit 2. Worthii never receives or stores your payment card details. Signed StoreKit transaction evidence is verified on-device to unlock your entitlements.</p>
+        <p>All payments (auto-renewing Pro subscriptions, one-time Lifetime Pro unlock, and optional GuangYin packs) are processed exclusively by Apple via StoreKit 2. Worthii never receives or stores your payment card details. Signed StoreKit transaction evidence is verified on-device to unlock your entitlements.</p>
       </article>
 
       <article class="card">
         <h2>6. Account Deletion &amp; Data Retention</h2>
-        <p>You can delete your Worthii account at any time inside the app (Profile → Settings → Delete Account). Deleting your account permanently removes your profile, backup records, and social data, leaving only a minimal technical deletion tombstone so older devices do not resurrect deleted data. Auto-renewing Apple subscriptions must still be canceled in iOS Settings → Apple Account → Subscriptions.</p>
+        <p>You can delete your Worthii account at any time inside the app (Profile → Clear / Delete Data). Deleting your account permanently removes your profile, backup records, and social data, leaving only a minimal technical deletion tombstone so older devices do not resurrect deleted data. Auto-renewing Apple subscriptions must still be canceled in iOS Settings → Apple Account → Subscriptions.</p>
       </article>
 
       <article class="card">
@@ -76,7 +84,7 @@
       <section class="hero">
         <span class="pill">隐私政策</span>
         <h1>值得么（Worthii）隐私政策</h1>
-        <p class="meta">生效日期：2026年11月24日 · 适用于 值得么（com.moyu.worthit.cn）与 Worthii 国际版（com.moyu.worthit）</p>
+        <p class="meta">生效日期：2026年11月28日 · 适用于 值得么（com.moyu.worthit.cn）与 Worthii 国际版（com.moyu.worthit）</p>
       </section>
 
       <article class="card">
@@ -87,33 +95,33 @@
       <article class="card">
         <h2>2. 本地与个人 iCloud 数据</h2>
         <ul>
-          <li><strong>账本与心愿冷静期记录：</strong> 您的月薪、工时、币种、记账流水、心愿冷静期与消费模式洞察均优先保存在设备本地，并通过您个人的 Apple iCloud（CloudKit 私有数据库）进行安全备份。</li>
-          <li><strong>桌面小组件快照：</strong> 为展示累计省下工时与冷静期倒计时，应用仅通过本机 App Group 共享脱敏摘要数据，不上传第三方服务器。</li>
-          <li><strong>冲动洞察教练：</strong> 冷静成功率、高发冲动时段和最常忍住分类完全在设备本地计算，绝不离机上传。</li>
+          <li><strong>账本与心愿冷静期记录：</strong> 您的月薪、工时、币种、记账流水、冷静舱心愿与消费模式洞察均优先保存在设备本地，并通过您个人的 Apple iCloud（CloudKit 私有数据库）免费同步备份。</li>
+          <li><strong>本机冲动与情绪年鉴：</strong> 冷静成功率、高发冲动时段、可选情绪标签、光阴手札与时光信物均 100% 在设备本地计算，绝不上传至第三方分析或 AI 服务器。</li>
+          <li><strong>小组件、灵动岛与 Siri 快捷指令：</strong> 仅将不含敏感隐私的轻量摘要（时薪倍率、进行中冷静倒计时与累计守住天数）保留在本机沙盒/应用组容器内，用于支持桌面/锁屏小组件、灵动岛实时活动与离线 Siri 算工时，绝不传往第三方服务器。</li>
         </ul>
       </article>
 
       <article class="card">
         <h2>3. 大陆版与国际版差异</h2>
         <ul>
-          <li><strong>中国大陆版（com.moyu.worthit.cn）：</strong> 为纯净的个人冷静记账与感悟手账版本（含个人 iCloud 同步），不含公开社区动态上传。</li>
+          <li><strong>中国大陆版（com.moyu.worthit.cn）：</strong> 为纯净的个人冷静记账与私密感悟手账版本（含个人 iCloud 同步），不含公开社区动态上传。</li>
           <li><strong>国际版（com.moyu.worthit）：</strong> 提供可选的 Worthii 圈子、好友与一对一消息。仅当您主动发布或发送时，相关内容才会存入 CloudKit 以提供对应功能。</li>
         </ul>
       </article>
 
       <article class="card">
         <h2>4. 相册权限说明</h2>
-        <p>仅当您主动为心愿手账添加配图或设置可选图片时才会请求相册访问权限，应用不会在后台读取您的相册。</p>
+        <p>仅当您主动为心愿手账添加配图或设置本机收款图片时才会请求相册访问权限，应用不会在后台读取您的相册。</p>
       </article>
 
       <article class="card">
         <h2>5. 应用内购买与订阅</h2>
-        <p>所有付费项目（自动续期 Pro 会员、一次性买断永久 Pro 及可选光阴币包）均由 Apple 通过 StoreKit 2 统一结算。我们不收集也不保存您的银行卡或支付账号信息，仅在本地校验 Apple 签名的交易凭证以发放权益。</p>
+        <p>所有付费项目（自动续期 Pro 会员、一次性买断永久 Pro 及可选光阴包）均由 Apple 通过 StoreKit 2 统一结算。我们不收集也不保存您的银行卡或支付账号信息，仅在本地校验 Apple 签名的交易凭证以发放权益。</p>
       </article>
 
       <article class="card">
         <h2>6. 账号注销与数据删除</h2>
-        <p>您可随时在应用内「我的 → 设置 → 注销账号」永久删除您的个人资料与云端备份。系统仅保留极简的防复活删除标记（Tombstone），防止旧设备重新覆盖已删除数据。若您开通了自动续期订阅，请同时在 iOS「设置 → Apple 账户 → 订阅」中取消续费。</p>
+        <p>您可随时在应用内「我的 → 清空/注销数据」永久删除您的个人资料与云端备份。系统仅保留极简的防复活删除标记（Tombstone），防止旧设备重新覆盖已删除数据。若您开通了自动续期订阅，请同时在 iOS「设置 → Apple 账户 → 订阅」中取消续费。</p>
       </article>
 
       <article class="card">
@@ -126,11 +134,42 @@
       <section class="hero">
         <span class="pill">隱私權政策</span>
         <h1>Worthii 隱私權政策</h1>
-        <p class="meta">生效日期：2026年11月24日 · 適用於 Worthii（com.moyu.worthit）與大陸版（com.moyu.worthit.cn）</p>
+        <p class="meta">生效日期：2026年11月28日 · 適用於 Worthii（com.moyu.worthit）與大陸版（com.moyu.worthit.cn）</p>
       </section>
       <article class="card">
-        <h2>核心承諾</h2>
-        <p>Worthii 採本機優先設計，不含第三方廣告追蹤 SDK（<code>NSPrivacyTracking = false</code>）。您的薪資設定、記帳、願望冷靜期與洞察僅存於本機及您的個人 Apple iCloud 私有空間；國際版圈子與好友資料僅於您主動分享時儲存。所有 Pro 訂閱、買斷制永久解鎖與光陰幣均透過 Apple StoreKit 2 處理，並可隨時於 App 內永久刪除帳號。</p>
+        <h2>1. 本機優先與零廣告追蹤</h2>
+        <p>Worthii 採本機優先設計，不含第三方廣告追蹤 SDK、資料仲介商或跨 App 追蹤（<code>NSPrivacyTracking = false</code>）。</p>
+      </article>
+      <article class="card">
+        <h2>2. 本機與個人 iCloud 儲存</h2>
+        <ul>
+          <li><strong>帳本與冷靜期紀錄：</strong> 您的薪資設定、記帳流水、冷靜艙心願與衝動洞察教練數據皆優先儲存在裝置本機，並透過個人 Apple iCloud（CloudKit 私有資料庫）免費同步。</li>
+          <li><strong>本機情緒年鑑與光陰手札：</strong> 衝動高發時段、可選情緒標籤、光陰手札進度與防禦率 100% 於裝置本機計算，絕不上傳至第三方分析或 AI 伺服器。</li>
+          <li><strong>桌面小工具、動態島與 Siri 捷徑：</strong> 僅將不含敏感隱私的輕量摘要（時薪倍率、冷靜倒數與累計守住天數）保留在本機 iOS 容器與 App Group 內，絕不傳往第三方伺服器。</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>3. 國際版與大陸版邊界</h2>
+        <ul>
+          <li><strong>國際版（com.moyu.worthit）：</strong> 提供可選的 Worthii 圈子、好友、一對一私訊與友情券，僅於您主動發佈或傳送時儲存至 CloudKit；檢舉或封鎖會立即隱藏內容並留存審核記錄。</li>
+          <li><strong>大陸版（com.moyu.worthit.cn）：</strong> 為純粹的個人冷靜記帳與私密感悟手帳（含個人 iCloud 同步），不上傳任何公開社區貼文。</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>4. 相簿權限與選用媒體</h2>
+        <p>僅於您主動為心願手帳添加圖片或設定本機收款圖片時才會請求相簿權限，除非您明確分享，圖片皆僅保留在裝置本機。</p>
+      </article>
+      <article class="card">
+        <h2>5. 應用內購買與訂閱</h2>
+        <p>所有 Pro 自動續訂、買斷制永久 Pro 與光陰包皆由 Apple 透過 StoreKit 2 統一處理，我們不接觸亦不儲存您的付款卡片資訊。</p>
+      </article>
+      <article class="card">
+        <h2>6. 帳號註銷與資料留存</h2>
+        <p>您隨時可在 App 內「我的 → 清空/刪除資料」永久刪除個人資料與雲端備份，僅保留極簡防復活刪除標記（Tombstone）。自動續訂請另於 iOS「設定 → Apple 帳戶 → 訂閱項目」取消。</p>
+      </article>
+      <article class="card">
+        <h2>7. 聯絡與支援</h2>
+        <p>如需隱私諮詢或協助，請前往 <a href="./support.html">使用支援頁面</a>。</p>
       </article>
     </main>
 
@@ -138,11 +177,42 @@
       <section class="hero">
         <span class="pill">プライバシーポリシー</span>
         <h1>Worthii プライバシーポリシー</h1>
-        <p class="meta">発効日：2026年11月24日 · 対象：Worthii（com.moyu.worthit / com.moyu.worthit.cn）</p>
+        <p class="meta">発効日：2026年11月28日 · 対象：Worthii（com.moyu.worthit / com.moyu.worthit.cn）</p>
       </section>
       <article class="card">
-        <h2>プライバシー保護の方針</h2>
-        <p>Worthii はローカル優先で設計されており、第三者広告トラッキング SDK を使用しません（<code>NSPrivacyTracking = false</code>）。給料設定、家計簿、クールダウン中のウィッシュ、衝動傾向インサイトは端末内およびお客様個人の Apple iCloud プライベート領域に保存されます。アプリ内課金（Pro サブスクリプション、買い切り Pro、光陰コイン）はすべて Apple StoreKit 2 を通じて安全に処理され、アカウントはアプリ内からいつでも完全削除できます。</p>
+        <h2>1. ローカル優先・広告トラッキングなし</h2>
+        <p>Worthii はローカル優先で設計されており、第三者広告トラッキング SDK、データブローカー、アプリ横断トラッキングを使用しません（<code>NSPrivacyTracking = false</code>）。</p>
+      </article>
+      <article class="card">
+        <h2>2. 端末内および個人 iCloud でのデータ保管</h2>
+        <ul>
+          <li><strong>収支・冷却ポッド記録：</strong> 給料設定、家計簿、冷却ポッドのウィッシュ、衝動傾向コーチの分析は端末内およびお客様個人の Apple iCloud プライベート領域に保存されます。</li>
+          <li><strong>端末内感情年鑑＆クロニクル：</strong> 衝動時間帯、任意の感情タグ、光陰クロニクルの進捗や見送り率は 100% 端末内で完結し、外部の分析・AI サーバーには送信されません。</li>
+          <li><strong>ウィジェット・ライブアクティビティ・Siri：</strong> 時給換算レートや冷却タイマーなどの軽量サマリーは iOS の端末内コンテナ／App Group のみに留まり、外部サーバーへ送信されません。</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>3. グローバル版と中国本土版の機能差</h2>
+        <ul>
+          <li><strong>グローバル版（com.moyu.worthit）：</strong> 任意の Worthii サークル、フレンド、1対1チャット、友情チケットを含み、ご自身が明示的に共有・送信した内容のみ CloudKit に保存されます。通報・ブロック時は即座に非表示となります。</li>
+          <li><strong>中国本土版（com.moyu.worthit.cn）：</strong> 個人用 iCloud 同期付きの完全な個人用ジャーナルとして動作し、公開フィードへの投稿はありません。</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>4. 写真ライブラリへのアクセス</h2>
+        <p>写真ライブラリへのアクセスは、ウィッシュ記録に写真を添付したり任意のQR画像を設定する際に操作された場合のみ要求され、バックグラウンドで読み取ることはありません。</p>
+      </article>
+      <article class="card">
+        <h2>5. アプリ内課金とサブスクリプション</h2>
+        <p>すべての課金（月額・年額 Pro、買い切り永久 Pro、光陰パック）は Apple StoreKit 2 を通じて処理され、決済カード情報は当方に送信・保存されません。</p>
+      </article>
+      <article class="card">
+        <h2>6. アカウント削除とデータ保持</h2>
+        <p>アプリ内「プロフィール → データを消去／削除」からいつでもアカウントとクラウドバックアップを永久削除できます（古い端末からの復活を防ぐ最小限の削除マーカーのみ保持）。自動更新サブスクリプションの解約は iOS「設定 → Apple Account → サブスクリプション」から行ってください。</p>
+      </article>
+      <article class="card">
+        <h2>7. お問い合わせ</h2>
+        <p>プライバシーに関するご質問は <a href="./support.html">サポートページ</a> よりご連絡ください。</p>
       </article>
     </main>
 
@@ -150,11 +220,85 @@
       <section class="hero">
         <span class="pill">개인정보 처리방침</span>
         <h1>Worthii 개인정보 처리방침</h1>
-        <p class="meta">시행일: 2026년 11월 24일 · 적용 대상: Worthii (com.moyu.worthit / com.moyu.worthit.cn)</p>
+        <p class="meta">시행일: 2026년 11월 28일 · 적용 대상: Worthii (com.moyu.worthit / com.moyu.worthit.cn)</p>
       </section>
       <article class="card">
-        <h2>핵심 개인정보 보호 원칙</h2>
-        <p>Worthii는 로컬 우선 원칙으로 설계되었으며 제3자 광고 추적 SDK를 사용하지 않습니다(<code>NSPrivacyTracking = false</code>). 급여 설정, 가계부, 보류 위시, 충동 패턴 인사이트는 기기 및 개인 Apple iCloud 비공개 영역에 저장됩니다. 모든 인앱 구입(Pro 구독, 평생 소장 Pro, 광음 코인)은 Apple StoreKit 2로 처리되며, 앱 내에서 언제든 계정을 영구 삭제할 수 있습니다.</p>
+        <h2>1. 로컬 우선 설계 및 광고 추적 없음</h2>
+        <p>Worthii는 로컬 우선 원칙으로 설계되었으며 제3자 광고 추적 SDK, 데이터 브로커 및 교차 앱 추적을 사용하지 않습니다(<code>NSPrivacyTracking = false</code>).</p>
+      </article>
+      <article class="card">
+        <h2>2. 기기 및 개인 iCloud 데이터 저장</h2>
+        <ul>
+          <li><strong>소비 및 냉각 포드 기록:</strong> 급여 설정, 가계부 내역, 냉각 포드 위시 및 소비 습관 코치 데이터는 기기 및 개인 Apple iCloud 비공개 영역에 저장됩니다.</li>
+          <li><strong>온디바이스 감정 연감 &amp; 연대기:</strong> 충동 시간대, 선택형 감정 태그, 시간의 연대기 진행도 및 방어율 분석은 100% 기기 내부에서만 계산되며 외부 분석·AI 서버로 전송되지 않습니다.</li>
+          <li><strong>위젯·실시간 현황·Siri 단축어:</strong> 시급 환산 비율, 냉각 타이머, 되찾은 근무일 요약은 기기 내 로컬 iOS 컨테이너/App Group에만 보관되며 제3자 서버로 유출되지 않습니다.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>3. 글로벌 버전과 중국 본토 버전의 차이</h2>
+        <ul>
+          <li><strong>글로벌 버전(com.moyu.worthit):</strong> 선택형 Worthii 서클, 친구, 1:1 채팅 및 우정 티켓을 포함하며 사용자가 직접 공유·전송한 항목만 CloudKit에 저장됩니다. 신고 또는 차단 시 즉시 숨김 처리됩니다.</li>
+          <li><strong>중국 본토 버전(com.moyu.worthit.cn):</strong> 개인 iCloud 동기화가 포함된 순수 개인용 냉각 저널로 동작하며 공개 피드 업로드 기능이 없습니다.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>4. 사진 보관함 접근 권한</h2>
+        <p>사진 보관함 권한은 위시 기록에 사진을 첨부하거나 선택형 QR 이미지를 등록할 때만 요청되며, 명시적으로 공유하지 않는 한 기기 내부에만 보관됩니다.</p>
+      </article>
+      <article class="card">
+        <h2>5. 인앱 구입 및 구독</h2>
+        <p>모든 결제(월간·연간 Pro 구독, 평생 소장 Pro 일회성 구매, 광음 팩)는 Apple StoreKit 2로 처리되며 결제 카드 정보는 앱에 수집·저장되지 않습니다.</p>
+      </article>
+      <article class="card">
+        <h2>6. 계정 영구 삭제 및 데이터 보관</h2>
+        <p>앱 내 「프로필 → 데이터 초기화/삭제」에서 언제든 계정과 클라우드 백업을 영구 삭제할 수 있습니다(이전 기기의 데이터 부활을 막기 위한 최소 삭제 표시만 유지). 자동 갱신 구독 해지는 iOS 「설정 → Apple 계정 → 구독」에서 직접 관리해야 합니다.</p>
+      </article>
+      <article class="card">
+        <h2>7. 문의 및 지원</h2>
+        <p>개인정보 관련 문의는 <a href="./support.html">지원 페이지</a>를 방문해 주세요.</p>
+      </article>
+    </main>
+
+    <main data-lang="es-MX">
+      <section class="hero">
+        <span class="pill">Política de privacidad</span>
+        <h1>Política de privacidad de Worthii</h1>
+        <p class="meta">Vigente desde: 28 de noviembre de 2026 · Aplica a Worthii (com.moyu.worthit / com.moyu.worthit.cn)</p>
+      </section>
+      <article class="card">
+        <h2>1. Privacidad desde el diseño</h2>
+        <p>Worthii prioriza tus datos locales. No utilizamos SDKs publicitarios de terceros, intermediarios de datos ni rastreo entre apps (<code>NSPrivacyTracking = false</code>).</p>
+      </article>
+      <article class="card">
+        <h2>2. Almacenamiento local y iCloud privado</h2>
+        <ul>
+          <li><strong>Registros de gastos y deseos:</strong> Tu salario, horarios, registros de gastos e ingresos, deseos en enfriamiento y resúmenes de hábitos se almacenan localmente y se respaldan en tu espacio privado de Apple iCloud (CloudKit Private Database).</li>
+          <li><strong>Almanaque emocional y Crónica en el dispositivo:</strong> Los horarios pico de impulso, notas emocionales opcionales y tu progreso de la Crónica se calculan 100% en tu dispositivo y nunca se envían a servidores externos de analítica o IA.</li>
+          <li><strong>Widgets, Actividades en Vivo y Atajos de Siri:</strong> Los resúmenes compactos sin datos sensibles (tarifa por hora, temporizador activo y días recuperados) permanecen estrictamente dentro de tu contenedor local / App Group de iOS.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>3. Diferencias entre ediciones (Global y China continental)</h2>
+        <ul>
+          <li><strong>Edición Global (com.moyu.worthit):</strong> Incluye funciones sociales opcionales (Worthii Circle, Amigos, Chat 1-a-1 y Promesas de amistad). Solo el contenido que elijas compartir o enviar explícitamente se guarda en Apple CloudKit; reportar o bloquear oculta el contenido de inmediato.</li>
+          <li><strong>Edición China continental (com.moyu.worthit.cn):</strong> Funciona como un diario personal independiente de enfriamiento y reflexión (con respaldo privado en iCloud) sin publicaciones públicas.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>4. Fotos y contenido multimedia opcional</h2>
+        <p>El acceso a la fototeca se solicita únicamente cuando eliges adjuntar una foto a un deseo o una imagen QR opcional, permaneciendo en tu dispositivo salvo que decidas compartirla.</p>
+      </article>
+      <article class="card">
+        <h2>5. Compras dentro de la app y suscripciones</h2>
+        <p>Todas las suscripciones Pro, la compra única Vitalicia y los paquetes de GuangYin son procesados exclusivamente por Apple mediante StoreKit 2. Worthii nunca recibe ni almacena los datos de tu tarjeta.</p>
+      </article>
+      <article class="card">
+        <h2>6. Eliminación de cuenta y retención</h2>
+        <p>Puedes eliminar tu cuenta permanentemente en cualquier momento desde la app (Perfil → Borrar / Eliminar datos), conservando solo una marca técnica mínima para evitar que dispositivos antiguos restauren datos borrados. Las suscripciones activas se cancelan en Configuración de iOS → Cuenta de Apple → Suscripciones.</p>
+      </article>
+      <article class="card">
+        <h2>7. Contacto y soporte</h2>
+        <p>Para consultas sobre privacidad o asistencia de datos, visita nuestra <a href="./support.html">Página de soporte</a>.</p>
       </article>
     </main>
 
@@ -178,6 +322,7 @@
       else if (nav.startsWith('zh')) activate('zh-Hans');
       else if (nav.startsWith('ja')) activate('ja');
       else if (nav.startsWith('ko')) activate('ko');
+      else if (nav.startsWith('es')) activate('es-MX');
     })();
   </script>
 </body>
